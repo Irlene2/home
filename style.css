@@ -1,0 +1,87 @@
+:root{
+    
+    height: 100vh;
+    margin: 0;
+    background-color: #1c1c1c;
+    background:linear-gradient(90 deg, rgba(46, 44, 45,1)0%, rgba (66, 64, 67, 1) 100%);
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+header{
+    display: flex;
+    }
+
+.logo {
+  
+    justify-items: left;
+    width: 80px;
+    height: auto;
+    margin: 15px 0 10px 0;
+   
+}
+    h1 {
+        
+    margin-right: 15px;
+    justify-content: right;
+    font-size: 50px;
+    padding-left: 0%;
+    color: #e3eaec;
+   cursor:pointer;
+   justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+  }
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+    
+}
+.img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    align-items: center;
+  
+    
+
+}
+.img:hover {
+cursor: crosshair;
+width: 300px;
+opacity: 1;
+filter: contrast(120%);
+cursor: pointer;
+transition: 0.5s all;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    fill: 2%;
+    padding: 2%;
+    margin-top: 15px;
+    margin-top:15px;
+    background:var(--cortitulo);
+    color:#afd9e1;
+}
+
+
+.rodape h3 {
+    font-size:16px;
+}
+
+.icons íon-ícone {
+    width: 40px;
+    height: 40px;
+    color:#000000;
+}
+
+.icons ion-icon:hover {
+    color: #4f5050;
+}
+
